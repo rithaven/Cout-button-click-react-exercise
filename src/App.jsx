@@ -9,7 +9,7 @@ function App() {
   return (
     <div className='flex items-center justify-center h-screen m-auto'>
       <div>
-      <p className='mb-4'>the button has been clicked : {count} times.</p>
+      <p className='mb-4'>Button has been clicked : {count} times.</p>
 
 <button className='p-2 border border-black bg-slate-200 active:bg-yellow-500' onClick={handleClick}>Click me</button>
       </div>
